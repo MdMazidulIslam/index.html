@@ -1,0 +1,82 @@
+.tb,th{
+    border: 1px black solid;
+    background-color: plum;
+    width: 100px;
+    height: 33px;
+    padding: 3px;
+}
+td{
+    width: 10px;
+    height: 10px;
+    border: 1px black solid;
+    text-align: center;
+    border-radius: 5px;
+}
+th:hover{
+    color: white;
+    background-color: palevioletred;
+}
+td:hover{
+    color: white;
+    background-color: rgb(221, 174, 190);
+}
+.div1{
+    width: 100px;
+    height: 135px;
+    border: 1px black solid;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    background-color:rgb(62, 241, 173);
+    position: relative;
+}
+table{
+    width: auto;
+    height: auto;
+    margin: 10px 10px 10px px;
+    font-size: 5px;
+}
+body{
+    background-color: bisque;
+}
+.div2{
+    width: 100px;
+    height: 156px;
+    border: 1px black solid;
+    margin: 5px;
+    float: left;
+    background-color: aquamarine;
+
+}
+.div21{
+    width: 88px;
+    height: 140px;
+    border: 1px black solid;
+    margin: 5px;
+    float: left;
+    background-color: plum;
+    text-align: center;
+
+}
+.div22{
+    margin: 3px;
+    width: 80px;
+    height: 35px;
+    border: 1px black solid;
+    background-color: plum;
+}
+.divkiy{
+    margin:  3px 4px 2px 2px;
+    width: 14px;
+    height: 12px;
+    float: left;
+    border: 1px black solid;
+    font-size: 8px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: plum;
+}
+.divkiy:hover{
+    color: white;
+    background-color: palevioletred;
+}
