@@ -11,6 +11,7 @@ header{
     position: fixed;
     top: 0px;
     background-color: #ffffff;
+    z-index: 2;
 }
 footer{
     width: 100%;  
