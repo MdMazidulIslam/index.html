@@ -182,7 +182,7 @@ h1.sec-1-left-div-h1 {
 .sec-2-grid img:hover{
     transform: translateY(-0.3333333333rem);
     box-shadow: 0 0.5rem 2rem 0 rgb(33 40 50 / 25%);
-    overflow: hidden;
+
 }
 /* ------------------------------------------------Section-2------------------------------------------ */
 /* ------------------------------------------------Section-3------------------------------------------ */
@@ -403,6 +403,7 @@ h1.sec-1-left-div-h1 {
     width: 100%;
     color: #dfe4eb;
     margin: 40px 0px;
+    display: grid;
 }
 .footer-last-div-1 ,.footer-last-div-2{
     width: 50%;
