@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shizuru&display=swap');
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Shizuru', cursive; */
+/* ------------------------------------------------Header start----------------------------------------- */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    top: 0px;
+    background-color: #ffffff;
+    z-index: 2;
+}
+footer{
+    width: 100%;  
+    height: 472px;
+    background-color: #f2f6fc;
+}
+.nav{
+    margin: 15px 88px;
+}
+.nav-bar{
+    width: 70%;
+    float: left;
+    margin-bottom: 45px;
+    
+}
+.logo{
+    width: 30%;
+    float: left;
+    font-weight: bolder;
+    font-size: larger;
+    color: #0061f2;
+    margin: 27px 0px;
+    
+}
+.nav-bar ul{
+    margin-left: 225px;
+}
+.nav-bar > ul > li ,.nav-bar > ul > li > a{
+    list-style-type: none;
+    text-decoration: none;
+    float: left;
+    margin-left: 20px;
+    color: #7e7e7e;
+    padding: 6px 0px;
+}
+.nav-bar > ul > button > a{
+    text-decoration: none;
+    float: left;
+    color: #f2f7fe;
+    font-weight: 700;
+}
+.nav-bar > ul > button {
+    margin-left: 80px;
+    width: 121.43px;
+    height: 44px;
+    padding: 0px 18px;
+    border-radius: 6px;
+    background-color: #0061f2;
+    border: none;
+    float: left;
+}
+.nav-bar > ul > button > i{
+    color: #f2f7fe;
+    font-weight: 700;
+}
+
+
+@media screen and (min-width:1025px) and (max-width:1440px){
+    body{
+        font-family: 'Roboto', sans-serif;
+        background-color: rgb(3, 82, 82);
+    }
+    header{
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        position: fixed;
+        top: 0px;
+        background-color: #960808;
+        z-index: 2;
+    }
+    footer{
+        width: 100%;  
+        height: 472px;
+        background-color: #f2f6fc;
+    }
+    .nav{
+        margin: 15px 88px;
+    }
+    .nav-bar{
+        width: 70%;
+        float: left;
+        margin-bottom: 45px;
+        
+    }
+    .logo{
+        width: 30%;
+        float: left;
+        font-weight: bolder;
+        font-size: larger;
+        color: #000000;
+        margin: 27px 0px;
+        
+    }
+    .nav-bar ul{
+        margin-left: 225px;
+    }
+    .nav-bar > ul > li ,.nav-bar > ul > li > a{
+        list-style-type: none;
+        text-decoration: none;
+        float: left;
+        margin-left: 20px;
+        color: #7e7e7e;
+        padding: 6px 0px;
+    }
+    .nav-bar > ul > button > a{
+        text-decoration: none;
+        float: left;
+        color: #f2f7fe;
+        font-weight: 700;
+    }
+    .nav-bar > ul > button {
+        margin-left: 80px;
+        width: 121.43px;
+        height: 44px;
+        padding: 0px 18px;
+        border-radius: 6px;
+        background-color: #0061f2;
+        border: none;
+        float: left;
+    }
+    .nav-bar > ul > button > i{
+        color: #f2f7fe;
+        font-weight: 700;
+    }
+    
+}
+
+@media screen and (min-width:767px) and (max-width:1024px){
+    body{
+        font-family: 'Roboto', sans-serif;
+        background-color: rgb(10, 207, 125);
+    }
+    header{
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        position: fixed;
+        top: 0px;
+        background-color: #0a0202;
+        z-index: 2;
+    }
+    footer{
+        width: 100%;  
+        height: 472px;
+        background-color: #f2f6fc;
+    }
+    .nav{
+        margin: 15px 88px;
+    }
+    .nav-bar{
+        width: 70%;
+        float: left;
+        margin-bottom: 45px;
+        
+    }
+    .logo{
+        width: 30%;
+        float: left;
+        font-weight: bolder;
+        font-size: larger;
+        color: #000000;
+        margin: 27px 0px;
+        
+    }
+    .nav-bar ul{
+        margin-left: 225px;
+    }
+    .nav-bar > ul > li ,.nav-bar > ul > li > a{
+        list-style-type: none;
+        text-decoration: none;
+        float: left;
+        margin-left: 20px;
+        color: #7e7e7e;
+        padding: 6px 0px;
+    }
+    .nav-bar > ul > button > a{
+        text-decoration: none;
+        float: left;
+        color: #f2f7fe;
+        font-weight: 700;
+    }
+    .nav-bar > ul > button {
+        margin-left: 80px;
+        width: 121.43px;
+        height: 44px;
+        padding: 0px 18px;
+        border-radius: 6px;
+        background-color: #0061f2;
+        border: none;
+        float: left;
+    }
+    .nav-bar > ul > button > i{
+        color: #f2f7fe;
+        font-weight: 700;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:768px){
+    body{
+        font-family: 'Roboto', sans-serif;
+        background-color: rgb(188, 235, 19);
+    }
+    header{
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        position: fixed;
+        top: 0px;
+        background-color: #ffffff;
+        z-index: 2;
+    }
+    footer{
+        width: 100%;  
+        height: 472px;
+        background-color: #f2f6fc;
+    }
+    .nav{
+        margin: 15px 88px;
+    }
+    .nav-bar{
+        width: 70%;
+        float: left;
+        margin-bottom: 45px;
+        
+    }
+    .logo{
+        width: 30%;
+        float: left;
+        font-weight: bolder;
+        font-size: larger;
+        color: #000000;
+        margin: 27px 0px;
+        
+    }
+    .nav-bar ul{
+        margin-left: 225px;
+    }
+    .nav-bar > ul > li ,.nav-bar > ul > li > a{
+        list-style-type: none;
+        text-decoration: none;
+        float: left;
+        margin-left: 20px;
+        color: #7e7e7e;
+        padding: 6px 0px;
+    }
+    .nav-bar > ul > button > a{
+        text-decoration: none;
+        float: left;
+        color: #f2f7fe;
+        font-weight: 700;
+    }
+    .nav-bar > ul > button {
+        margin-left: 80px;
+        width: 121.43px;
+        height: 44px;
+        padding: 0px 18px;
+        border-radius: 6px;
+        background-color: #0061f2;
+        border: none;
+        float: left;
+    }
+    .nav-bar > ul > button > i{
+        color: #f2f7fe;
+        font-weight: 700;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:425px){
+    
+}
+
+@media screen and (min-width:321px) and (max-width:375px){
+    
+}
+
+@media screen and (max-width:320px){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
