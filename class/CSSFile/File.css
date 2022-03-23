@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shizuru&display=swap');
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Shizuru', cursive; */
+/* ------------------------------------------------Header start----------------------------------------- */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #ffff;
+    padding: 20px 0px;
+    z-index: 2;
+}
+.container{
+    margin: auto 20px;
+    display: block;
+}
+.container p{
+    color: #728ba4;
+}
+.navigation{
+    padding: 0px 20px 0px 6px;
+}
+.logo{
+    width: auto;
+    float: left;
+    margin: 10px -7px;
+    font-weight: bolder;
+    color: #0061f2;
+    font-size: large;
+}
+.nav-bar{
+    width: auto;
+    float: right;
+    display: none;
+}
+.nav-bar >ul >li{
+    float: left;
+    list-style-type: none;
+    padding: 0px 30px 0px 0px;
+    margin: 10px 0px;
+}
+.nav-bar >ul{
+    margin: 0px;
+    /* padding: -7px 0px 0px -155px; */
+}
+.nav-bar >ul >li > a {
+    text-decoration: none;
+    color: #737373;
+}
+.nav-bar >ul >button > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.nav-bar button{
+    width: auto;
+    padding: 14px 27px;
+    border: none;
+    background-color: #0061f2;
+    border-radius: 6px;
+}
+/* -----------------------------for mobile------------- */
+.mobile-nav-bar{
+    float: right;
+    width: auto;
+    display: block;
+}
+.mobile-nav-bar > ul{
+    margin: 10px 0px;
+}
+
+.mobile-nav-bar >ul >li {
+    list-style-type: none;
+}
+.mobile-nav-bar >ul >li >a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px;
+}
+.mobile-nav-bar >ul >li > ul{
+    margin-top: 12px;
+    list-style-type: none;
+    opacity: 0;
+    display: none;
+}
+.mobile-nav-bar >ul >li:hover > ul{
+    opacity: 1;
+    display: block;
+}
+
+.mobile-nav-bar >ul >li > ul > li{
+    padding: 5px 0px 0px 0px;
+}
+.mobile-nav-bar >ul >li > ul > li >a{
+    text-decoration: none;
+}
+.mobile-nav-bar >ul >li > ul > button{
+    margin: 7px 0px 0px 0px;
+    width: auto;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: blue;
+
+}
+.mobile-nav-bar >ul >li > ul > button > a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+/* ----------------------------------------------header end------------------------------------------------ */
+.sec-1{
+    margin: 37px 0px 0px 0px;
+    width: 100%;
+}
+.sec-1-main{
+    width: 100%;
+}
+.sec-1-left{
+    width: 100%;
+    float: left;
+    color: #363d47;
+    margin: auto 0px;
+    display: block;
+}
+.sec-1-left > h1{
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 55px;
+}
+.sec-1-left > p{
+    font-size: 18.4px;
+}
+.view-demo-btn,.documentation-btn{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #0061f2;
+    color: #fff;
+    margin: 10px 5px 30px 0px;
+}
+.documentation-btn{
+    background-color: #dae7fb;
+}
+.view-demo-btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.documentation-btn a{
+    color: #0061f2;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.sec-1-right{
+    width: 50%;
+    float: right;
+    display: none;
+}
+/* ---------------------------------------------section-1 end------------------------------------------------- */
+.sec-2{
+    width: 100%;
+    text-align: center;
+    background-color: #f2f6fc;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.sec-head-div-1-div{  
+    background-color: #dae7fb; 
+    padding: 0px 10px;
+    border-radius: 50px;
+}
+.sec-head-div-2-div h2{  
+    font-weight: 400;
+}
+.sec-sub-main-div{
+    width: 100%;
+    display: block;
+}
+
+.sec-sub-main-div-grid{
+    width: auto;
+    padding-right: 0px;
+}
+.sec-sub-main-div-grid h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.sec-sub-main-div-grid  img{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0.5rem 2rem 0 rgb(33 40 50 / 25%);
+}
+.sec-sub-main-div-grid  img:hover{
+    transform: translateY(-0.3333333333rem);
+    box-shadow: 0 0.5rem 2rem 0 rgb(33 40 50 / 25%);
+}
+/* ---------------------------------------------section-2 end------------------------------------------------- */
+.sec-3{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.sec-castom-head-div{
+    text-align: center;
+}
+.sec-footer-img{
+    width: 100%;
+}
+.sec-3-ul-sub-div h6{
+    font-size: 16px;
+    font-weight: normal;
+}
+.sec-3-ul-main-div{
+    width: 100%;
+}
+.sec-3-ul-sub-div{
+    width: 100%;
+    display: block;
+}
+.sec-3-ul-sub-div > ul > a > li{
+    border: 1px #d8dbe0 solid;
+    list-style-type: none;
+    padding: 5px 10px 5px 15px;
+}
+.sec-3-ul-sub-div > ul > a > li >i{
+    float: right;    
+    color: #c6cdd7;
+}
+.sec-3-ul-sub-div > ul > a > li:hover{
+    background-color: #f2f6fc;
+
+}
+.sec-3-ul-sub-div > ul{
+    margin: 0px;
+    /* margin-right: 31px; */
+    padding-left: 0px;
+    box-shadow: 0 0.5rem 2rem 0 rgb(33 40 50 / 25%);
+}
+.sec-3-ul-sub-div > ul > a {
+    text-decoration: none;
+    color: #5b4936;
+}
+.ul-top{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.ul-bottom{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+/* ---------------------------------------------section-3 end------------------------------------------------- */
+.sec-4{
+    width: 100%;
+    text-align: center;
+    background-color: #f2f6fc;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+/* ---------------------------------------------section-4 end------------------------------------------------- */
+.sec-head-div-2-div{
+    text-align: center;
+}
+.sec-3-ul-sub-div-2{
+    padding: 0px 35px;
+    font-weight: 400;
+    font-size: 17.6px;
+}
+.sec-3-ul-sub-div-2 span{
+    font-size: 75px;
+    color: #c5ccd6;
+}
+.sec-3-ul-sub-div-2 h5{
+    font-weight: 400;
+    font-size: 17.6px;
+}
+.main-button-div{
+    width: 100%;
+}
+.main-button-div button{
+    font-weight: 800;
+    padding: 15px 25px;
+    margin-bottom: 100px;
+    border: none;
+    border-radius: 6px;
+    background-color: #0061f2;
+    color: #fff;
+}
+/* ---------------------------------------------section-5 end------------------------------------------------- */
+footer{
+    background-color: #f2f6fc;
+    color: #a7aeb8;
+}
+.footer-content-div{
+    width: 100%;
+}
+footer ul{
+    padding: 0px;
+}
+footer li{
+    list-style-type: none;
+}
+footer a{
+    text-decoration: none;
+    color: #a7aeb8;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.footer-last{
+    width: 100%;
+}
+.footer-last-content-div{
+    border-top: 2px solid #a7aeb8;
+}
+.footer-last-1 {
+    width: auto;
+    padding-top: 13px;
+}
+.footer-last-2 {
+    width: auto;
+    padding-top: 13px;
+}
+/* ---------------------media---------------------- */
+@media (min-width:320px){
+    /* more than 375px */
+    .container {
+        margin: auto 20px;
+        display: block;
+    }
+    .mobile-nav-bar >ul >li >a {
+        text-decoration: none;
+        font-size: 25px;
+        padding: 5px;
+    }
+    .sec-1-left > h1 {
+        margin-top: 55px;
+        font-size: 30px;
+    }
+    .view-demo-btn, .documentation-btn {
+        padding: 10px 10px;
+        margin: 10px 5px 30px 0px;
+    }
+    .sec-sub-main-div-grid {
+        margin-bottom: 40px;
+    }
+    .sec-sub-main-div-grid h2 {
+        margin-top: 40px;
+    }
+    .sec-3-ul-sub-div-2 {
+        padding: 0px 10px;
+    }
+    .sec-3-ul-sub-div-2 span {
+        font-size: 60px;
+    }
+    .main-button-div button {
+        font-weight: 800;
+        padding: 12px 10px;
+        margin-bottom: 50px;
+    }
+    .footer-content-div{
+        width: 100%;
+    }
+    .footer-last-1 {
+        width: auto;
+        padding-top: 13px;
+    }
+    .footer-last-2 {
+        width: auto;
+        padding-top: 13px;
+    }
+}
+@media (min-width:767px){
+    /* more than 768px */
+    .container {
+        margin: auto 80px;
+        display: block;
+    }
+    .sec-1-left{
+        width: 100%;
+        margin: auto;
+    }
+    .sec-sub-main-div{
+        width: 100%;
+        float: left;
+        display: block;
+    }
+    .sec-head-div-1{
+        margin-top: 40px;
+    }
+    .sec-head-div-1-div {
+        background-color: #dae7fb;
+        padding: 0px 10px;
+        border-radius: 50px;
+    }
+    .sec-sub-main-div-grid h2 {
+        margin: 25px;
+    }
+    .sec-3-ul-sub-div h6 {
+        font-size: 18px;
+        margin: 30px 0px 20px 0px;
+    }
+    .sec-3-ul-sub-div > ul > a > li {
+        padding: 10px 10px 10px 15px;
+    }
+    .view-demo-btn, .documentation-btn {
+        padding: 15px 15px;
+        margin: 20px 10px 30px 0px;
+    }
+    .main-button-div button{
+        font-weight: 800;
+        padding: 15px 25px;
+        margin-bottom: 100px;
+    }
+    .footer-last {
+        width: 100%;
+    }
+    .footer-last-1 {
+        width: auto;
+        float: left;
+        padding-top: 13px;
+    }
+    .footer-last-2 {
+        width: auto;
+        float: right;
+        padding-top: 13px;
+    }
+    .none{
+        padding-top: 45px;
+    }
+}
+@media (min-width:1023px){
+    /* more than 1024px */
+    .sec-1-main {
+    margin-top: 75px;
+    }
+    .mobile-nav-bar{
+        display: none;
+    }
+    .nav-bar{
+        display: block;
+    }
+    .sec-1-left{
+        width: 50%;
+        margin: auto;
+    }
+    .sec-1-right{
+        display: block;
+    }
+    .sec-sub-main-div{
+        width: 50%;
+        float: left;
+        display: block;
+    }
+    .sec-sub-main-div-grid {
+        margin-bottom: 40px;
+        padding: 0px 20px;
+    }
+    .sec-3-ul-sub-div {
+        width: 33.33%;
+        float: left;
+        display: block;
+    }
+    .sec-3-ul-sub-div > ul {
+        margin-right: 30px;
+    }
+    .footer-content-div{
+        width: 20%;
+        float: left;
+    }
+    .footer-last {
+        width: 100%;
+        padding-top: 210px;
+    }
+}
+@media (min-width:1200px){
+    /* more than 1200px */
+    .sec-1-left{
+        margin: 65px auto;
+    }
+    .footer-main-div{
+        width: 20%;
+        float: left;
+        display: block;
+    }
+    .sec-sub-main-div {
+        width: 33.33%;
+        float: left;
+        display: block;
+    }
+    
+}
